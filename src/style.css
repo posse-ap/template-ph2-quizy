@@ -1,0 +1,55 @@
+.main {
+  display: block;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 19px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.choice {
+  list-style: none;
+  border: solid 2px rgba(0, 0, 0, 0.05);
+  font-size: 20px;
+  margin-top: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0.5px 0.5px;
+          box-shadow: rgba(0, 0, 0, 0.5) 0.5px 0.5px;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+}
+
+.choice:last-child {
+  margin-bottom: 20px;
+}
+
+.blue {
+  background-color: #08b3f0;
+}
+
+.red {
+  background-color: #fd6647;
+}
+
+#answerBox, #errorBox {
+  display: none;
+  background-color: #ccc;
+  width: 100%;
+  padding: 20px;
+}
+
+.question {
+  font-size: 18px;
+}
+
+.question::after {
+  content: '';
+  display: block;
+  margin-top: 3px;
+  width: 100px;
+  height: 2px;
+  background-color: #00ab36;
+}
+/*# sourceMappingURL=style.css.map */
